@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pact — Privacy Policy</title>
+<meta name="theme-color" content="#4F46E5">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%234F46E5'/%3E%3Ccircle cx='16' cy='16' r='8' fill='none' stroke='white' stroke-width='2.6'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<style>
+  .doc{max-width:740px;margin:0 auto;padding:64px 24px;}
+  .doc h1{font-size:34px;margin:0 0 6px;}
+  .doc .updated{color:var(--muted);font-size:14px;margin:0 0 32px;}
+  .doc h2{font-size:20px;margin:32px 0 8px;}
+  .doc p,.doc li{font-size:16px;color:var(--ink);line-height:1.7;}
+  .doc .muted{color:var(--muted);}
+  .doc a.back{display:inline-block;margin-top:40px;font-size:14px;color:var(--accent-ink);text-decoration:none;font-weight:600;}
+  .doc .note{margin-top:28px;padding:16px 18px;border:1px dashed var(--line);border-radius:12px;font-size:14px;color:var(--muted);}
+</style>
+</head>
+<body>
+<div class="doc">
+  <h1>Privacy Policy</h1>
+  <p class="updated">Pact (Chrome extension) · Last updated June 2026</p>
+
+  <p><b>The short version: Pact does not collect, transmit, sell, or share your data — ever.</b>
+    There are no servers and no accounts. Everything Pact remembers stays on your own device.</p>
+
+  <h2>What Pact stores</h2>
+  <p>Pact saves the following <i>locally</i> in your browser (via <code>chrome.storage.local</code>),
+    and nowhere else:</p>
+  <ul>
+    <li>the list of websites you choose to block;</li>
+    <li>your settings (whether blocking is on, your Strict Mode commitment);</li>
+    <li>a local counter of blocked attempts and a daily streak.</li>
+  </ul>
+  <p>This information never leaves your device. We cannot see it, and there is no account to sync it to.</p>
+
+  <h2>What Pact does not do</h2>
+  <ul>
+    <li>No analytics, telemetry, or tracking.</li>
+    <li>No collection of your browsing history. Pact does not read, log, or transmit the pages you visit.</li>
+    <li>No external servers. No advertising. Nothing is ever sold or shared.</li>
+  </ul>
+
+  <h2>Permissions, and why</h2>
+  <ul>
+    <li><b>Storage</b> — to save your blocklist and settings on your device.</li>
+    <li><b>declarativeNetRequest</b> and host access — to redirect the sites <i>you</i> chose to
+      block to Pact's own "Not now." page. This is used only to apply your own rules; Pact does not
+      inspect or record your browsing.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Pact is a general-audience productivity tool and is not directed at children under 13.</p>
+
+  <h2>Honest note</h2>
+  <p>Pact is a commitment device, not a lock. You can remove it at any time from your browser's
+    extensions page. We never claim otherwise.</p>
+
+  <h2>Changes &amp; contact</h2>
+  <p class="muted">If this policy changes, the updated version will be posted here. Questions:
+    <span id="contact">[contact email]</span>.</p>
+
+  <div class="note">Draft prepared for review by Philippe Lin (attorney) before submission. It
+    reflects the extension's actual behavior as built: fully local, no data collection.</div>
+
+  <a class="back" href="./">← Back to Pact</a>
+</div>
+</body>
+</html>
